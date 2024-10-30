@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : Objects
+public class Cards : Objects
 {
-
-    public int damage=1;
+    public string Poder =" ";
     public override void DoDestroy()
     {
         base.DoDestroy();

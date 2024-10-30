@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Objects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int id = 0;
+    public string nameObj = "";
+    public SpriteRenderer sprite;
+
+    public virtual void DoSomething()
     {
-        
+
+    }
+    public virtual void DoDestroy()
+    {
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
