@@ -13,7 +13,6 @@ public class MenuController : MonoBehaviour
     }
     private void OnclikSalir()
     {
-
         print("Saliste");
         Application.Quit();
     }
