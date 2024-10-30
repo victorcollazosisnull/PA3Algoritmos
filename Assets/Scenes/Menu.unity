@@ -2743,7 +2743,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'LOOP HERO
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 63cd4e73d0121664aa327f3e8661e0fe, type: 2}
   m_sharedMaterial: {fileID: -7994593241453579591, guid: 63cd4e73d0121664aa327f3e8661e0fe, type: 2}
