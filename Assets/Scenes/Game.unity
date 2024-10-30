@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b3c6a0ea085cd47bdafd347856c1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1865149493}
   speed: 3
 --- !u!61 &708166783
 BoxCollider2D:
@@ -752,7 +752,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1163,6 +1163,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288039304}
   m_CullTransparentMesh: 1
+--- !u!4 &1865149493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1574414572481379359, guid: 915ed844ac609a04a8ec5b7218684823, type: 3}
+  m_PrefabInstance: {fileID: 3316690941493715307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1684336713493471440
 PrefabInstance:
   m_ObjectHideFlags: 0
